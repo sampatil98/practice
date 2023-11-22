@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+  padding: 5px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #141a34;
+  color: white;
+}
+  span{
+    color: orange;
+  }
+  .nav-options{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-right: 20px; */
+  }
+  .nav-options p:hover{
+    cursor: pointer;
+    color: orange;
+  }
+
+  .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-image: url("/img/top-view-desk-concept-with-gray-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container{
+    padding: 50px;
+    width: 60%;
+    border-radius: 15px;
+    background-color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .container h1,h2,h3,p{
+    margin-top: 15px;
+  }
+  #description{
+    font-size: 20px;
+  }
+  .align_div{
+    display: flex;
+  }
+  .align_div h2{
+    width: 30%;
+    
+  }
+  .align_div h1,h3,p{
+    width: 70%;
+    
+  }
+  #apply{
+    padding: 10px 50px;
+    font-size: 20px;
+    background-color: green;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+  .button_div{
+    display: flex;
+    justify-content: center;
+  }
+
+  label{
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  #companey{
+    color: orange;
+  }
+  #title{
+    color: blue;
+  }
+
+  /* ****** */
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+  }

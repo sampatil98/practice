@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.navbar {
+  padding: 5px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #141a34;
+  color: white;
+}
+span {
+  color: orange;
+}
+.nav-options {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-right: 20px; */
+}
+.nav-options p:hover {
+  cursor: pointer;
+  color: orange;
+}
+.home {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  padding: 10px 50px;
+  background-image: url("../img/top-view-desk-concept-with-gray-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 93vh;
+}
+.about {
+  width: 50%;
+  text-align: center;
+}
+.about {
+  margin-top: 50px;
+}
+.about h2 {
+  margin: 20px 0px;
+}
+.btn {
+  padding: 5px 35px;
+  background-color: green;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.login-signup {
+  width: 60%;
+  margin-left: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn:hover {
+  background: orange;
+}
+
+/*  */
+#logo {
+  color: white;
+  text-decoration: none;
+}
+.link {
+  color: white;
+  text-decoration: none;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply</title>
+    <link rel="stylesheet" href="./Styles/apply.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="/index.html"><h1>Daily-<span>JOB</span> Search</h1></a>
+        <div class="nav-options">
+           <a href="/index.html" class="link"><p>Home</p></a>
+           <a href="" class="link"><p>About</p></a>
+           <a href="/dashbord.html"><p>Dashbord</p></a>
+        </div>
+    </nav>
+
+    <div class="main">
+        <div class="container">
+            <div class="align_div">
+                <h2>Company Name :</h2>
+                <h1 id="companey"></h1>
+            </div>
+            <div class="align_div">
+                <h2>Job Title :</h2>
+                <h3 id="title"></h3>
+            </div>
+            <div class="align_div">
+                <h2>Job Description :</h2>
+                <p id="description"></p>
+            </div>
+            <div class="align_div">
+                <h2>Job Location :</h2>
+                <h3 id="location"></h3>
+            </div>
+            <div class="align_div">
+                <h2>Salary :</h2>
+                <h3 id="salary"></h3>
+            </div>
+            
+            <div id="resume">
+                
+            </div>
+            
+            
+            <div class="button_div">
+                <form action="submit" id="form">
+                    <label for="input">Resume</label>
+                    <input type="file" required>
+                    <button id="apply">Apply</button>
+                </form>
+                
+            </div>
+            
+        </div>
+
+    </div>
+    
+</body>
+<script src="./Scripts/apply.js"></script>
+</html>

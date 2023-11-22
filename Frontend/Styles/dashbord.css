@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #141a34;
+    color: white;
+  }
+  span{
+    color: orange;
+  }
+  .nav-options{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-right: 20px; */
+  }
+  .nav-options p:hover{
+    cursor: pointer;
+    color: orange;
+  }
+
+  /* *********************************************** */
+  .hero {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+form input[type="text"],
+form button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+form input[type="text"] {
+    width: 60%;
+    margin-right: 10px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* -------------------------------container-------------------- */
+
+#container{
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.card{
+  padding: 15px;
+  background-color: aliceblue;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* border: 1px solid gray; */
+}
+.card:hover {
+  cursor: pointer;
+  background-color: rgb(223, 242, 243);
+
+}
+.set-img{
+  width: 15px;
+  margin-right: 30px;
+}
+.align-div{
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.align-div h2{
+  color:  #202e6a;
+}
+.link{
+  color: white;
+  text-decoration: none;
+}
